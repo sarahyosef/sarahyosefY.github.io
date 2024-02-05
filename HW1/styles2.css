@@ -1,0 +1,188 @@
+body {
+	background-image: url("blue.png");
+	background-size: cover;
+	
+	background-position: center;
+	height: 100vh;
+	color: black;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+a:hover {
+	color: pink;
+}
+
+.h1 {
+	color: #9B4884;
+	font-weight: bold;
+}
+
+ul.nobullets {
+	list-style-type: none;
+}
+
+ul.numberedlist {
+	list-style-type: upper-roman;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+.book {
+	font-style: italic; 
+}
+
+.line {
+	border-bottom: 1px solid #9B4884;
+	width: 30%;
+	
+}
+
+.positions {
+	font-size: 20px;
+}
+
+.content {
+	background: white;
+	margin-left: 3em;
+	margin-right: 3em;
+	margin-top: 4em;
+	margin-bottom: 2em;
+	position: relative;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	
+}
+
+.headertext {
+	margin-left: 8%;
+	margin-top: 10vh;
+}
+
+.img {
+	margin-left:20%;
+	margin-top: 60px;
+}
+
+.logo{	
+	position: absolute;
+	right: 80px;
+	top: 60px;
+
+}
+
+.quote {
+	margin-left:30%;
+	margin-top: 60px;
+	font-size: 20px;
+
+} 
+
+
+.flex{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 200px;
+}
+
+.education {
+	line-height: 1.15;
+}
+
+
+.jobs {
+	line-height: 1.15;
+
+}
+
+.secondflex{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 20px;
+	gap: 100px;
+}
+
+.interests {
+	line-height: 1.15;
+}
+
+
+
+.music {
+	line-height: 1.15;
+}
+
+
+.thirdflexbox {
+	display: flex;
+	margin-top: 50px;
+	margin-bottom: 70px;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: nowrap;
+	padding: 4px;
+	gap: 20px;
+}
+
+.linesecond {
+	border-bottom: 1px solid #9B4884;
+	width: 15%;
+	margin-bottom: 50px;
+}
+
+.portfolio {
+	text-align: center;
+}
+
+.gallery {
+	text-align: center;
+	margin-top: 70px;
+	font-weight: lighter;
+}
+
+.fourthflexbox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.table {
+	color: black;
+	border-collapse: collapse;
+	width: fit-content;
+}
+
+th, td {
+	text-align: center;
+	padding: 12px;
+
+}
+
+tr:nth-child(even) {
+	background-color: #F8F8F8;
+}
+
+.depart {
+	text-align: center;
+
+}
+
+.linkedin {
+	margin-left: 70%;
+}
+
+
+
+
+
+
+
